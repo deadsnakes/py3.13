@@ -1,3 +1,9 @@
+python3.13 (3.13.0~rc2-1+jammy2) jammy; urgency=medium
+
+  * re-enable pgo / lto (accidentally disabled)
+
+ -- Anthony Sottile <asottile@umich.edu>  Mon, 09 Sep 2024 22:55:42 +0000
+
 python3.13 (3.13.0~rc2-1+jammy1) jammy; urgency=medium
 
   * Update to v3.13.0rc2.
