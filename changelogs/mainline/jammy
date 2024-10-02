@@ -1,3 +1,9 @@
+python3.13 (3.13.0~rc3-1+jammy1) jammy; urgency=medium
+
+  * Update to v3.13.0rc3.
+
+ -- Anthony Sottile (deadsnakes) <asottile+deadsnakes@umich.edu>  Wed, 02 Oct 2024 08:51:08 +0000
+
 python3.13 (3.13.0~rc2-1+jammy2) jammy; urgency=medium
 
   * re-enable pgo / lto (accidentally disabled)
