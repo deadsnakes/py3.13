@@ -26,7 +26,7 @@ index f99de1f..b9a6d32 100755
              object.__name__ not in ('xml.etree', 'test.test_pydoc.pydoc_mod')):
              if docloc.startswith(("http://", "https://")):
 diff --git a/Lib/site.py b/Lib/site.py
-index 0a0dc47..fc375bd 100644
+index d31bc77..20c2cae 100644
 --- a/Lib/site.py
 +++ b/Lib/site.py
 @@ -7,12 +7,18 @@
@@ -200,7 +200,7 @@ index 2df17b9..f518c70 100644
          else:
              # other platforms
 diff --git a/Makefile.pre.in b/Makefile.pre.in
-index 5382292..ce756cb 100644
+index 1ac07b1..dc8b589 100644
 --- a/Makefile.pre.in
 +++ b/Makefile.pre.in
 @@ -159,7 +159,7 @@ WHEEL_PKG_DIR=	@WHEEL_PKG_DIR@
@@ -229,7 +229,7 @@ index 1f1bfcb..411b6d7 100644
      VENV_LANDMARK = 'pyvenv.cfg'
      ZIP_LANDMARK = f'{platlibdir}/python{VERSION_MAJOR}{VERSION_MINOR}{ABI_THREAD}.zip'
 diff --git a/configure b/configure
-index 7cdd386..f7afa1c 100755
+index e1bfd73..41936f9 100755
 --- a/configure
 +++ b/configure
 @@ -24604,11 +24604,11 @@ fi
@@ -268,7 +268,7 @@ index 7cdd386..f7afa1c 100755
  
  
 diff --git a/configure.ac b/configure.ac
-index 24e28a1..5d97509 100644
+index cfe9de0..66521f5 100644
 --- a/configure.ac
 +++ b/configure.ac
 @@ -6190,11 +6190,11 @@ fi
