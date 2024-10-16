@@ -8,7 +8,7 @@ this is only needed on ubuntu focal
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/configure.ac b/configure.ac
-index 5518481..500abf8 100644
+index 8eba34b..26b4893 100644
 --- a/configure.ac
 +++ b/configure.ac
 @@ -12,7 +12,7 @@ dnl
