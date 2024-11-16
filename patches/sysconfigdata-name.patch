@@ -28,10 +28,10 @@ index 0bdf61d..be085ec 100644
  
  def _init_posix(vars):
 diff --git a/Makefile.pre.in b/Makefile.pre.in
-index bef9768..81db22e 100644
+index e729801..0a31d91 100644
 --- a/Makefile.pre.in
 +++ b/Makefile.pre.in
-@@ -2570,8 +2570,10 @@ libinstall:	all $(srcdir)/Modules/xxmodule.c
+@@ -2572,8 +2572,10 @@ libinstall:	all $(srcdir)/Modules/xxmodule.c
  			esac; \
  		done; \
  	done
