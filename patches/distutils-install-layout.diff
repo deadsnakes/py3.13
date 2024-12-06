@@ -229,10 +229,10 @@ index 1f1bfcb..411b6d7 100644
      VENV_LANDMARK = 'pyvenv.cfg'
      ZIP_LANDMARK = f'{platlibdir}/python{VERSION_MAJOR}{VERSION_MINOR}{ABI_THREAD}.zip'
 diff --git a/configure b/configure
-index ae70f02..fb89234 100755
+index 891f390..3bf98b5 100755
 --- a/configure
 +++ b/configure
-@@ -24609,11 +24609,11 @@ fi
+@@ -24615,11 +24615,11 @@ fi
  
  
  
@@ -246,7 +246,7 @@ index ae70f02..fb89234 100755
  
  PLATLIBDIR="lib"
  { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for --with-platlibdir" >&5
-@@ -24632,7 +24632,7 @@ then
+@@ -24638,7 +24638,7 @@ then
    { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: yes" >&5
  printf "%s\n" "yes" >&6; }
    PLATLIBDIR="$withval"
@@ -255,7 +255,7 @@ index ae70f02..fb89234 100755
  else
    { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
  printf "%s\n" "no" >&6; }
-@@ -24646,9 +24646,9 @@ fi
+@@ -24652,9 +24652,9 @@ fi
  
  
  if test x$PLATFORM_TRIPLET = x; then
@@ -268,7 +268,7 @@ index ae70f02..fb89234 100755
  
  
 diff --git a/configure.ac b/configure.ac
-index a764028..c5f71d3 100644
+index 68ca1d0..4a00dd7 100644
 --- a/configure.ac
 +++ b/configure.ac
 @@ -6191,11 +6191,11 @@ fi
