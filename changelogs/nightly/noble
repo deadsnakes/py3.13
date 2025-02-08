@@ -1,3 +1,9 @@
+python3.13 (3.13.2-21-g4a1389ced4-1+noble1) noble; urgency=medium
+
+  * Update to v3.13.2-21-g4a1389ced4.
+
+ -- Anthony Sottile <asottile@umich.edu>  Sat, 08 Feb 2025 17:21:46 +0000
+
 python3.13 (3.13.1-241-g506c76f1bd-1+noble1) noble; urgency=medium
 
   * Update to v3.13.1-241-g506c76f1bd.
