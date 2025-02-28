@@ -8,10 +8,10 @@ Subject: multiarch
  2 files changed, 7 insertions(+)
 
 diff --git a/Lib/sysconfig/__init__.py b/Lib/sysconfig/__init__.py
-index 65805941..50a62be 100644
+index adc1cd0..c3a2596 100644
 --- a/Lib/sysconfig/__init__.py
 +++ b/Lib/sysconfig/__init__.py
-@@ -541,6 +541,12 @@ def _init_config_vars():
+@@ -548,6 +548,12 @@ def _init_config_vars():
      # e.g., 't' for free-threaded or '' for default build
      _CONFIG_VARS['abi_thread'] = 't' if _CONFIG_VARS.get('Py_GIL_DISABLED') else ''
  
@@ -25,7 +25,7 @@ index 65805941..50a62be 100644
      srcdir = _CONFIG_VARS.get('srcdir', _PROJECT_BASE)
      if os.name == 'posix':
 diff --git a/Makefile.pre.in b/Makefile.pre.in
-index b0dd773..0948c9a 100644
+index b7e7e22..58dd5f2 100644
 --- a/Makefile.pre.in
 +++ b/Makefile.pre.in
 @@ -1724,6 +1724,7 @@ Python/interpconfig.o: $(srcdir)/Python/interpconfig.c $(srcdir)/Python/config_c
