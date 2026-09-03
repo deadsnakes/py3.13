@@ -9,10 +9,10 @@ this is only needed on jammy and older
  2 files changed, 4 insertions(+)
 
 diff --git a/Lib/test/test_sax.py b/Lib/test/test_sax.py
-index 9b3014a..74f902e 100644
+index 412ea1b..54b0b9e 100644
 --- a/Lib/test/test_sax.py
 +++ b/Lib/test/test_sax.py
-@@ -1240,6 +1240,7 @@ def test_flush_reparse_deferral_enabled(self):
+@@ -1256,6 +1256,7 @@ def test_flush_reparse_deferral_enabled(self):
  
          self.assertEqual(result.getvalue(), start + b"<doc></doc>")
  
